@@ -31,6 +31,8 @@ const run = async () => {
     create: {
       email: "user@test.com",
       password: brcypt.hashSync("password", salt),
+      firstName: "Leah",
+      lastName: "Brenny",
     },
   });
 
@@ -46,8 +48,8 @@ const run = async () => {
           songs: {
             connect: songs.map((song) => ({
               id: song.id,
-            }))
-          }
+            })),
+          },
         },
       });
     })
