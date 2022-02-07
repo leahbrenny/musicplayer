@@ -14,8 +14,8 @@ const PlayerBar = () => {
           <Box padding="20px" color="white" width="30%" display="flex">
             <Image src={`https://picsum.photos/50?random`} />
             <Box paddingLeft="20px">
-            <Text fontSize="large">{activeSong.name}</Text>
-            <Text fontSize="sm">{activeSong.artist.name}</Text>
+              <Text fontSize="large">{activeSong.name}</Text>
+              <Text fontSize="sm">{activeSong.artist.name}</Text>
             </Box>
           </Box>
         ) : null}
