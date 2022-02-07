@@ -23,6 +23,7 @@ const PlayerBar = () => {
           {activeSong ? <Player songs={songs} activeSong={activeSong} /> : null}
         </Box>
       </Flex>
+      <Text>Volume Bar</Text>
     </Box>
   );
 };

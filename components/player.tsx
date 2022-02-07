@@ -35,11 +35,11 @@ const Player = ({ songs, activeSong }) => {
   };
 
   const onShuffle = () => {
-    setShuffle((state) => !state)
+    setShuffle((state) => !state);
   };
 
   const onRepeat = () => {
-      setRepeat((state) => !state)
+    setRepeat((state) => !state);
   };
 
   return (
