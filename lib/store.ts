@@ -6,4 +6,7 @@ export const store = createStore({
   changeActiveSongs: action((state: any, payload) => {
     state.activeSongs = payload;
   }),
+  changeActiveSong: action((state: any, payload) => {
+    state.activeSong = payload;
+  }),
 });
