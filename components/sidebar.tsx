@@ -44,7 +44,7 @@ const musicMenu = [
   },
   {
     name: "Favorites",
-    icon: MdPlaylistAdd,
+    icon: MdFavorite,
     route: "/favorites",
   },
 ];
